@@ -1,0 +1,35 @@
+body {
+    background-image: url("resources/img/pexels-negative-space-34580.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media li {
+    display: inline-block;
+    color: #fff;
+}
+
+.thomas-syvertsen-image {
+    align-self: center;
+    border-radius: 20%;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+header .title {
+    text-align: center;
+}
+
+header {
+    background-color: aquamarine;
+    top: 0;
+}
