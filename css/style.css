@@ -1,19 +1,11 @@
 body {
-    background-image: url("resources/img/pexels-negative-space-34580.jpg");
+    background-image: url("img/pexels-negative-space-34580.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     text-align: center;
-}
-
-.social-media {
-    text-align: center;
-}
-
-.social-media li {
-    display: inline-block;
-    color: #fff;
+    font-family: Roboto, sans-serif;
 }
 
 .thomas-syvertsen-image {
@@ -21,15 +13,38 @@ body {
     border-radius: 20%;
 }
 
-body {
-    font-family: Roboto, sans-serif;
+.subject {
+    text-align: center;
+    padding-bottom: 50px;
 }
 
-header .title {
+.subject-box {
+    margin: 50px 30px;
+    background-color: #2ffea1;
+}
+
+.subject-header {
+    padding: 25px 0;
+    margin: 0;
+}
+
+.title {
     text-align: center;
 }
 
 header {
     background-color: aquamarine;
     top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+    color: #000;
+    margin: 2px 0;
 }
